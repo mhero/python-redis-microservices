@@ -47,12 +47,12 @@ cp .env.example .env
 
 ```
 cd inventory
-python3 -m gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --reload -b :8000
+python3 -m gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --reload -b :8002
 ```
 
 ```
 cd payment
-python3 -m gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --reload -b :8001
+python3 -m gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --reload -b :8003
 ```
 
 ```
