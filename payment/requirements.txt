@@ -1,0 +1,4 @@
+fastapi==0.75.0
+redis-om==0.0.20
+requests==2.24.0
+python-dotenv==0.19.1

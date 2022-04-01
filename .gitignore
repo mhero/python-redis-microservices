@@ -1,0 +1,8 @@
+
+.DS_Store
+
+inventory/__pycache__/
+
+payment/__pycache__/
+
+inventory-frontend/.env
